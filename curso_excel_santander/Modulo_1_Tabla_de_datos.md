@@ -84,11 +84,11 @@ Cuando presionas Ctrl + T en Excel, el rango se convierte en una tabla inteligen
   - Ir al menú Datos.
   - Activar Filtro automático.
 
-im_1
+       ![im_1](imagenes/im_1.png)
 
 - En Excel Online aparece simplemente como Filtrar.
   - Esto le indica a Calc que ese bloque funcionará como una tabla estructurada.
-im_2
+![im_1](imagenes/im_2.png)
 
 --- 
 **Requisitos importantes**
@@ -137,12 +137,12 @@ En conclusion las tablas nos facilitan el manejo de datos ya que nos ahorran tie
   1. Ver
   2. Inmovilizar celdas
   3. Inmovilizar primera celda
-im_3 
+![im_1](imagenes/im_3.png)
 - Excel Online
   1. En la cinta de opciones debajo de insertar podemos ver la opcion
   2. Top Row
   3. la selecionamos
-im_4
+![im_1](imagenes/im_4.png)
 ---.
 ### Tablas en Excel Online
 - Excel Online sí permite crear diseño de tablas.
@@ -150,14 +150,16 @@ im_4
   - Se encontro en la cinta de opciones
   - Table Design
   - selecionamos table
- im_6 y im_7 
+- ![im_1](imagenes/im_6.png)
+- ![im_1](imagenes/im_7.png)
+
 imagen si hay table
 ---
 - En LibreOffice Calc no existe esta opción automática.
 - Aqui es un poco mas manual el diseño de tabla
 - Configuración de la fila de totales
-im_8
-
+- ![im_1](imagenes/im_8.png)
+- ![im_1](imagenes/im_s8.png)
 
 ### Actividad 1
 1. Configurar las siguientes columnas:
@@ -166,9 +168,9 @@ im_8
   - IMPORTE CLIENTE: Suma
   - IMPORTE PROFESOR: Promedio
   - FECHA CURSO: Mínimo
-En la parte inferior asignamos la configuracion pertinente:imagen 8
-configuracion 1
-resultado final im_9 
+En la parte inferior asignamos la configuracion pertinente:
+- ![im_1](imagenes/im_s9.png)
+  ![im_1](imagenes/im_9.png)
 ---
 - **La fila de totales se actualiza automáticamente cuando aplicamos filtros**.
 - En los siguiente ejercicios practicos se hicieron en Excel web porque cal no tienen las herramientas requeridas , por eso se llega
@@ -182,23 +184,23 @@ a la conclusion que Excel es muy util y tiene muchas herramientas.
   - JORNADA CURSO: MAÑANA, TARDE
   - PAGADO CLIENTE: NO
   - PAÍS: ITALIA
-    im_10 
+  ![im_1](imagenes/im_10.png)
 Luego consulté la fila de totales.
-im_11
+  ![im_1](imagenes/im_11.png)
 ---
 posterior mente procedi a mirar el video y comprobar el resultado final 
-im_12
+  ![im_1](imagenes/im_12.png)
 
 
 
 note que tenia el signo del dolar en lugar del euro , hago el cambio correspondientes
-im_13
+![im_1](imagenes/im_13.png)
 
 ### Filtrar por terminación o palabras
 También practiqué filtros avanzados como:
   - Filtrar por valores que terminan en cierto texto
   - Filtrar por palabras específicas
-    im_14
+![im_1](imagenes/im_14.png)
 
 3. **Actividad 3**
 - En el archivo 03. BD CURSOS:
@@ -209,7 +211,7 @@ También practiqué filtros avanzados como:
     - PAÍS: ITALIA
 
 Luego revisé la fila de totales.
-im_15
+![im_1](imagenes/im_15.png)
 
 ### 1.4 Filtrar datos II – Fechas
 Los campos de fecha se agrupan automáticamente por: Año, Mes,Día .
@@ -223,32 +225,43 @@ El último filtro aplicado es el que prevalece.
 - En el archivo 01. BD CURSOS:para practicar
 - Filtros aplicados:
   - CLIENTE: CLIENTE-001, 003, 005, 008
-  im_16
+  - ![im_1](imagenes/im_16.png)
+---
   - FECHA CURSO: primeros 6 meses de 2019 y 2021
-  im_17
+  - ![im_1](imagenes/im_17.png)
+---
   - DURACIÓN: mayor que 20
-  im_18
+  - ![im_1](imagenes/im_18.png)
+---
   - PAÍS: ESPAÑA e ITALIA
-  im19
+  - ![im_1](imagenes/im_19.png)
+---
   - PAGADO CLIENTE: NO
-  im_20
+  - ![im_1](imagenes/im_20.png)
+---
 Luego consulté la fila de totales.
-im  21
+  ![im_1](imagenes/im_21.png)
+---
 4.1 **Ejercicio**
 - En el archivo 04. BD CURSOS:
 - Filtros aplicados:
   - CLIENTE: CLIENTE-001, 003, 005, 008
-  imagen 22
+  - ![im_1](imagenes/im_22.png)
+---
   - FECHA CURSO: primeros 6 meses de 2019 y 2021
-  imagen 23
+  - ![im_1](imagenes/im_23.png)
+---
   - DURACIÓN: mayor que 20
-    24
+  - ![im_1](imagenes/im_24.png)
+---
   - PAÍS: ESPAÑA e ITALIA
-    25
+  - ![im_1](imagenes/im_25.png)
+---
   - PAGADO CLIENTE: NO
-  26
+  - ![im_1](imagenes/im_26.png)
+---
 Luego consulté la fila de totales.
-27
+    - ![im_1](imagenes/im_27.png)
 
 ### 1.5 Segmentación de datos
 La segmentación es una herramienta visual para filtrar tablas.Solo está disponible para:
