@@ -269,4 +269,4 @@ La segmentación es una herramienta visual para filtrar tablas.Solo está dispon
 - Tablas dinámicas
 - Cada segmentación es un objeto independiente con un botón por cada elemento del campo.
 
-No encontre segmentacion el excel web procedemos ha realizar los ejercicios en Excel.
+Podemos encontrar el segmento de datos en la cinta de opciones , Table Design , Slicer
