@@ -56,6 +56,7 @@ Este módulo profundiza en funciones esenciales y herramientas de análisis más
 ```text
 📂 /Modulo-1
 📁 /Modulo-2
+📁 /Certificado 
 ```
 
 
