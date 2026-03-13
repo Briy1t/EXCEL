@@ -71,7 +71,7 @@ sintaxis igual al de sumar pero en vez de sumar cuenta el número de celdas que 
 ### Función CONTARA
 cuenta tanto celdas con dato numérico, como celdas con dato texto.
 entre la función contar y contara la más habitual de usar es contara
-![im_3](imagenes/im_3.png)
+![im_3](imagenes/i_3.png)
 
 ### Función CONTAR.SI
 La función CONTAR.SI cuenta el número de celdas de un rango que cumplen con una determinada condición que nosotros establezcamos
@@ -117,10 +117,10 @@ Descarga el fichero 21. BD CURSOS RANGO
 - Paso 2
 - Paso 3
 
-- ![im_4](imagenes/im_4.png)
-- ![im_5](imagenes/im_5.png)
-- ![im_6](imagenes/im_6.png)
-- ![im_7](imagenes/im_7.png)
+- ![im_4](imagenes/i_4.png)
+- ![im_5](imagenes/i_5.png)
+- ![im_6](imagenes/i_6.png)
+- ![im_7](imagenes/i_7.png)
 
 
 
@@ -142,7 +142,8 @@ Descarga el fichero 21. BD CURSOS RANGO
 - Contar cursos con importe profesor < 500 (B3) — Aplicar =CONTAR.SI(T_CURSOS[Importe profesor];"<500") para filtrar y contar solo los que cumplen la condición.
 - Sumar todas las duraciones (B4) — Utilizar =SUMA(T_CURSOS[Duración]) para obtener la suma total de horas/duración.
 
-img 8-9 
+- ![im_8](imagenes/i_8.png)
+- ![im_9](imagenes/i_9.png)
 
 
 ## Función BUSCARV
@@ -193,21 +194,21 @@ Significado:
 -Por eso `TRUE` casi nunca se usa en tablas de trabajo reales.
 
 
-imagen 10 
+- ![im_10](imagenes/i_10.png)
 
 ### Practica 
 En el fichero 25. BD EJERCICIO BUSCARV descargado antes, busca en las columnas D y F el precio de cada referencia y el proveedor que vende cada referencia.
 
 - Paso 1
-imagen 11
+- ![im_11](imagenes/i_11.png)
 - =VLOOKUP(A2,ARTICULOS!$A$2:$D$11,4,0)
 - Paso 2  Proceso de ingreso de la formula
-- im 12
+- ![im_12](imagenes/i_12.png)
 - Paso 3 terminaod formula
-- im 13
+- ![im_13](imagenes/i_13.png)
 - =VLOOKUP(A5,ARTICULOS!$A$2:$D$11,3,0)
 - resultado
-- imagen final 14
+- ![im_14(imagenes/i_14.png)
 
 
 
@@ -219,13 +220,13 @@ Es ideal para cruzar datos , busca un valor en la primera columna de una tabla y
 Haci como se puede convertir un Rango en una tabla tambien podemos convertir una tabla a un rango.
 
 - En la cinta de herramientas en la pestaña insertar 
-img 15 
+- ![im_15](imagenes/i_15.png)
 - seleccionamos y damos aceptar 
-imagen 16 
+- ![im_16](imagenes/i_16.png)
 
 asi creamos una tabla desde un rango 
 
-17 
+- ![im_17](imagenes/i_17.png)
 
 --- 
 
