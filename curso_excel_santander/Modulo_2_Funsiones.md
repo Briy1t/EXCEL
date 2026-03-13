@@ -71,7 +71,7 @@ sintaxis igual al de sumar pero en vez de sumar cuenta el número de celdas que 
 ### Función CONTARA
 cuenta tanto celdas con dato numérico, como celdas con dato texto.
 entre la función contar y contara la más habitual de usar es contara
- imgane 3 
+![im_3](imagenes/im_3.png)
 
 ### Función CONTAR.SI
 La función CONTAR.SI cuenta el número de celdas de un rango que cumplen con una determinada condición que nosotros establezcamos
@@ -117,10 +117,10 @@ Descarga el fichero 21. BD CURSOS RANGO
 - Paso 2
 - Paso 3
 
-img 5 - 7 
-
-
-
+- ![im_4](imagenes/im_4.png)
+- ![im_5](imagenes/im_5.png)
+- ![im_6](imagenes/im_6.png)
+- ![im_7](imagenes/im_7.png)
 
 
 
