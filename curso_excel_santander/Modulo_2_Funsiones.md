@@ -61,7 +61,8 @@ En el fichero 17. BD CURSOS RANGO descargado antes, calcula en la celda B2 la su
 
 - Paso 1: Procedemos ha insertar la funcion en la celda , B1 y B2 llamndo a la funciòn SUMA , en la hoja Cursos estan los datos que vamos a sumar en este hoja 
 - Paso 2: Seleccionamos los rangos de la hoja Cursos que vamos a sumar =SUM(CURSOS!E2:E3G3,CURSOS!K2:K363)
-IMAGEN 1 Y 2
+- ![im_1](imagenes/i_1.png)
+- ![im_2](imagenes/i_2.png)
 
 
 ### Función CONTAR
