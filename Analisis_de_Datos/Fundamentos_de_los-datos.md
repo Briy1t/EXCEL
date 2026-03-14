@@ -20,10 +20,13 @@ El análisis de datos sigue un ciclo estructurado que convierte información en 
 
 ## 3. Tipos de datos y calidad
 - Tipos principales
-  - **Numéricos:** cantidades medibles o contables.
-  - **Texto:** nombres, códigos, descripciones.
-  - **Fechas**: momentos específicos en el tiempo.
-  - **Categóricos**: grupos o etiquetas.
+
+|Tipo de dato|	Descripción	|Ejemplo |
+|:--|:--|:--|
+|Numérico	|Cantidades medibles	|45, 3.14 |
+|Texto |	Información descriptiva |	"Cliente A"|
+|Fecha	| Momento en el tiempo	|2024-05-12|
+|Categórico|	Grupos o etiquetas|	"Alta", "Media", "Baja"|
 
 ## Problemas comunes de calidad
 - Datos faltantes.
@@ -50,8 +53,7 @@ Las hojas de cálculo son una herramienta inicial clave para organizar y explora
 ## 5. SQL: consultas esenciales
 SQL permite trabajar con bases de datos de forma estructurada.
 
----
-**Estructura básica de una consulta**
+- **Estructura básica de una consulta**
  - SELECT: columnas que se desean recuperar.
  - FROM: tabla de origen.
  - WHERE: condiciones de filtrado.
@@ -63,7 +65,8 @@ SQL permite trabajar con bases de datos de forma estructurada.
 - Usar LIKE para buscar patrones.
 - Evitar SELECT * cuando no sea necesario.
 - Añadir comentarios para documentar.
-- Utilizar alias para simplificar nombres largos.**Ejemplos habituales**
+- Utilizar alias para simplificar nombres largos.
+- **Ejemplos habituales**
     - Filtrar empleados por código de puesto.
     - Excluir valores con <>.
     - Buscar nombres que comienzan por determinadas letras.
