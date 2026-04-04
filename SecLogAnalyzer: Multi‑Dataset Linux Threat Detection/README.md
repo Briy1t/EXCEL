@@ -128,16 +128,16 @@ Definición de preguntas clave:
   - Basado en trabajo semanal, con una duración estimada de 10 semanas.
 
 ## 8. Documentos incluidos en el repositorio
-- ![Inicio_del_proyecto.md](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/Inicio_del_proyecto.md)
-- ![PROJECT_CHARTER_Análisis_Logs_Servidores_Linux.md](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/PROJECT_CHARTER_Anális_Logs_Servidores_Linux.md)
-- ![Imagenes](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/imagenes)
+- [Inicio_del_proyecto.md](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/Inicio_del_proyecto.md)
+- [PROJECT_CHARTER_Análisis_Logs_Servidores_Linux.md](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/PROJECT_CHARTER_Anális_Logs_Servidores_Linux.md)
+- [Imagenes](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/imagenes)
   
 ## 9. Estado actual del proyecto
 Completado:
-- ![Dataset 1](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/Analisis_dataset_1.md)
-- ![Dataset 2](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/analisis_dataset2.md)
-- ![Dataset 3.1](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/Dataset_3.1.md)
-- ![Dataset 3.2](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/Dataset_3,2.md)
+- [Dataset 1](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/Analisis_dataset_1.md)
+- [Dataset 2](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/analisis_dataset2.md)
+- [Dataset 3.1](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/Dataset_3.1.md)
+- [Dataset 3.2](SecLogAnalyzer:%20Multi‑Dataset%20Linux%20Threat%20Detection/Dataset_3,2.md)
 
 ---
 En progreso:
