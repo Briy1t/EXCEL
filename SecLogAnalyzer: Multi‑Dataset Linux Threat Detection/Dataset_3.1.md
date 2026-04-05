@@ -70,13 +70,13 @@ Este archivo contiene columnas clave:
 ---
 ## Nombre del archivo 3.1 linux_auth_logs_full(balanced)
 - Estructura del documento
-- 1
+- ![](imagenes/i1.png)
 - Tras la limpieza en python, se guardó como:
-- 2 
+- ![](imagenes/i2.png)
 
 - linux_auth_logs_(balanced)_clean
 - Y se importó en DBeaver.
-- 3
+- ![](imagenes/i3.png)
 
 ## 4. Resultados del análisis
 4.1 Usuarios con más intentos fallidos
@@ -90,7 +90,7 @@ GROUP BY username
 ORDER BY failed_attempts DESC;
 ```
 
-4
+- ![](imagenes/i4.png)
 --- 
 ### Interpretación:
 - ec2-user y admin son usuarios genéricos muy comunes en servidores Linux. Son los primeros que un atacante prueba.
@@ -109,7 +109,7 @@ FROM linux_auth_logs
 GROUP BY source_ip
 ORDER BY total_events DESC;
 ```
-- 5
+- ![](imagenes/i5.png)
 --- 
 #### Interpretación:
 
@@ -126,7 +126,7 @@ FROM linux_auth_logs
 GROUP BY service
 ORDER BY total_events DESC;
 ```
--6
+- ![](imagenes/i6.png)
 ---
 #### Interpretación:
 - ssh es el principal vector de ataque
@@ -141,7 +141,7 @@ SELECT status, COUNT(*) AS total
 FROM linux_auth_logs
 GROUP BY status;
 ```
-- 7
+- ![](imagenes/i7.png)
 ---
 #### Interpretación:
 - Muchos fallos indican actividad de fuerza bruta
@@ -155,7 +155,7 @@ FROM linux_auth_logs
 GROUP BY server
 ORDER BY total_events DESC;
 ```
-- 8
+- ![](imagenes/i8.png)
 ---
 #### Interpretación:
 
@@ -170,7 +170,7 @@ SELECT anomaly_label, COUNT(*) AS total
 FROM linux_auth_logs
 GROUP BY anomaly_label;
 ```
-- 9 
+- ![](imagenes/i9.png)
 ---
 #### Interpretación:
 
@@ -185,7 +185,7 @@ FROM linux_auth_logs
 GROUP BY hour
 ORDER BY hour;
 ```
--10 
+- ![](imagenes/i10.png)
 ---
 #### Interpretación:
 - Pico significativo a medianoche, típico de tareas automáticas (cron, backups, rotación de logs)
@@ -193,11 +193,11 @@ ORDER BY hour;
 ---
 ## Graficos
 - Muestra actividad sospechosa clara (ec2-user, admin). usuarios y fallos
-- 11
+- ![](imagenes/i11.png)
 - Muestra ataque distribuido.
-- 12
+- ![](imagenes/i12.png)
 - Resume el comportamiento del sistema
-- 13
+- ![](imagenes/i13.png)
 
 ## 5. Conclusión general del Dataset 3.1
 - El sistema muestra una actividad intensa sobre el servicio SSH, con más de 200.000 intentos fallidos concentrados principalmente en usuarios genéricos como ec2-user y admin. Este patrón es característico de ataques de fuerza bruta distribuidos, donde múltiples IPs realizan pocos intentos cada una.
