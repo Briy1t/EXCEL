@@ -95,5 +95,3 @@ El Dataset 1 representa tráfico:
 - Con fuerte presencia de bots, escáneres y servidores remotos
 - Con muy poca actividad atribuible a usuarios reales
 
-en procesos--- 
-
